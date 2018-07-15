@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F703BE679E544C5FB55876BE35BA74 /* GooglePlacesSearchController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 384F9A0AA777CBEC50BACE2B616DB773 /* GooglePlacesSearchController-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22FFA960FD82480AF80E2D292EE68F24 /* GooglePlacesSearchController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1773B09BFA9E4EEE69ABAC2B5C1FB1AF /* GooglePlacesSearchController-dummy.m */; };
+		283552E5EB23B341E4F09E062E4660E7 /* GooglePlacesSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951DC7A9DA20ABA5B948CF7FADF69D36 /* GooglePlacesSearchController.swift */; };
+		82C01F026C94E673857A39E281A0F825 /* Pods-Navino-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD4F5132FCF1C2366B2307DD53BCCC7 /* Pods-Navino-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1A8E06F660C17733AABA83E721FE002 /* Pods-Navino-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84139099CC52362B9E9D2AECD7E2792C /* Pods-Navino-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BB434465D8CFD8F26F57D7C29EA36BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89B940EBC4D4659E0D205DE92141D975;
+			remoteInfo = GooglePlacesSearchController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1773B09BFA9E4EEE69ABAC2B5C1FB1AF /* GooglePlacesSearchController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GooglePlacesSearchController-dummy.m"; sourceTree = "<group>"; };
+		19AE5BE15D374ADF2C8F5F02312F092A /* GooglePlacesSearchController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = GooglePlacesSearchController.modulemap; path = ../../Headers/Public/GooglePlacesSearchController/GooglePlacesSearchController.modulemap; sourceTree = "<group>"; };
+		206CFA0030FBAEEAC01BB8820245B3BF /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		384F9A0AA777CBEC50BACE2B616DB773 /* GooglePlacesSearchController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GooglePlacesSearchController-umbrella.h"; path = "../../Headers/Public/GooglePlacesSearchController/GooglePlacesSearchController-umbrella.h"; sourceTree = "<group>"; };
+		48285604A5E852B246A352FC2ED907DB /* Pods-Navino-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Navino-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AA5CF950D97F4FAEA6856DF41954362 /* Pods-Navino-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navino-frameworks.sh"; sourceTree = "<group>"; };
+		4D298EF1DE5A88CAA1713DFB99B7E012 /* GooglePlacesSearchController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GooglePlacesSearchController-prefix.pch"; sourceTree = "<group>"; };
+		6B61855393676D2EA288B2C59B9C4223 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		6B93428CD4F9F8B84A2C268DFF498EA8 /* GooglePlacesSearchController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlacesSearchController.xcconfig; sourceTree = "<group>"; };
+		78DA29711A9DAD754C391316E6E71FED /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		7BD4F5132FCF1C2366B2307DD53BCCC7 /* Pods-Navino-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Navino-umbrella.h"; sourceTree = "<group>"; };
+		84139099CC52362B9E9D2AECD7E2792C /* Pods-Navino-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Navino-dummy.m"; sourceTree = "<group>"; };
+		850B9517396245539726ECB498BECD31 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		876C349F16DC34A7EE067ECBC18FF76E /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		8E39F7881641816B55DC8AECE0B01B8F /* Pods-Navino.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Navino.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		951DC7A9DA20ABA5B948CF7FADF69D36 /* GooglePlacesSearchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GooglePlacesSearchController.swift; path = Pod/Classes/GooglePlacesSearchController.swift; sourceTree = "<group>"; };
+		985BB8AB2A698B2BE99A89372AA24E53 /* libGooglePlacesSearchController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGooglePlacesSearchController.a; path = libGooglePlacesSearchController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB763BEB19DFD5834EB75C02EC492311 /* powered-by-google-on-white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "powered-by-google-on-white@2x.png"; path = "Pod/Assets/powered-by-google-on-white@2x.png"; sourceTree = "<group>"; };
+		B5BC00E58A77B0807565B2EB4F0E44C9 /* Pods-Navino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Navino.release.xcconfig"; sourceTree = "<group>"; };
+		B6F3AC24AD816C5A255B4A899C7CA740 /* Pods-Navino-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navino-resources.sh"; sourceTree = "<group>"; };
+		C76C0395D9B3603DDBC28E8344D30BB3 /* Pods-Navino-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Navino-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8878B650252E63A062DA91E70674ED3 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		D1521E76635B4CB6297EA6E92F7A8E3D /* powered-by-google-on-white.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "powered-by-google-on-white.png"; path = "Pod/Assets/powered-by-google-on-white.png"; sourceTree = "<group>"; };
+		F638FCBB191D1BC9176EA66D112FEBDB /* Pods-Navino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Navino.debug.xcconfig"; sourceTree = "<group>"; };
+		F8BF455BBFF6B9BCBDAEFF42C0CC410D /* libPods-Navino.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Navino.a"; path = "libPods-Navino.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A0647549985B052A1733DB97B3A3CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C462C284920D14ED5A114506C719431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BC2153C43E6EF2D89BCCBAFD63C94F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				876C349F16DC34A7EE067ECBC18FF76E /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3284B5EFE72CE97AA2774851C06CEDD2 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				AE77E9B1259C122DA0653E6C1E8F250E /* Base */,
+				C4058F395593351E9F7BE3E003833F9B /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		3BC46E685C4A10CD767E14A9709B0E52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19AE5BE15D374ADF2C8F5F02312F092A /* GooglePlacesSearchController.modulemap */,
+				6B93428CD4F9F8B84A2C268DFF498EA8 /* GooglePlacesSearchController.xcconfig */,
+				1773B09BFA9E4EEE69ABAC2B5C1FB1AF /* GooglePlacesSearchController-dummy.m */,
+				4D298EF1DE5A88CAA1713DFB99B7E012 /* GooglePlacesSearchController-prefix.pch */,
+				384F9A0AA777CBEC50BACE2B616DB773 /* GooglePlacesSearchController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlacesSearchController";
+			sourceTree = "<group>";
+		};
+		3C867E87531088FDB51327B57407646A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				985BB8AB2A698B2BE99A89372AA24E53 /* libGooglePlacesSearchController.a */,
+				F8BF455BBFF6B9BCBDAEFF42C0CC410D /* libPods-Navino.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40230B89D1A2BF03CD5B5A3CF9CDC3E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1521E76635B4CB6297EA6E92F7A8E3D /* powered-by-google-on-white.png */,
+				AB763BEB19DFD5834EB75C02EC492311 /* powered-by-google-on-white@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		499BB0BDF77EE177D3B80D3D63D27DB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B61855393676D2EA288B2C59B9C4223 /* GoogleMaps.framework */,
+				206CFA0030FBAEEAC01BB8820245B3BF /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A914DE89C68BF224BDF382142C064F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78DA29711A9DAD754C391316E6E71FED /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6004AA72EF171BEEEC277805070D92DF /* Pods-Navino */ = {
+			isa = PBXGroup;
+			children = (
+				8E39F7881641816B55DC8AECE0B01B8F /* Pods-Navino.modulemap */,
+				48285604A5E852B246A352FC2ED907DB /* Pods-Navino-acknowledgements.markdown */,
+				C76C0395D9B3603DDBC28E8344D30BB3 /* Pods-Navino-acknowledgements.plist */,
+				84139099CC52362B9E9D2AECD7E2792C /* Pods-Navino-dummy.m */,
+				4AA5CF950D97F4FAEA6856DF41954362 /* Pods-Navino-frameworks.sh */,
+				B6F3AC24AD816C5A255B4A899C7CA740 /* Pods-Navino-resources.sh */,
+				7BD4F5132FCF1C2366B2307DD53BCCC7 /* Pods-Navino-umbrella.h */,
+				F638FCBB191D1BC9176EA66D112FEBDB /* Pods-Navino.debug.xcconfig */,
+				B5BC00E58A77B0807565B2EB4F0E44C9 /* Pods-Navino.release.xcconfig */,
+			);
+			name = "Pods-Navino";
+			path = "Target Support Files/Pods-Navino";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				93A25C3BB4CB3AD170166D2EDED78A6B /* Pods */,
+				3C867E87531088FDB51327B57407646A /* Products */,
+				ED20D9D4BD4E5054A1AC9856BB555A62 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93A25C3BB4CB3AD170166D2EDED78A6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3284B5EFE72CE97AA2774851C06CEDD2 /* GoogleMaps */,
+				A200F15BA3515969F63A286FE07A58A5 /* GooglePlaces */,
+				B0F6D42B9BBB99F92A235D62754F951F /* GooglePlacesSearchController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A200F15BA3515969F63A286FE07A58A5 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				ACD1A1487C15199484C3F658ECAC166D /* Frameworks */,
+				5A914DE89C68BF224BDF382142C064F4 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		ACD1A1487C15199484C3F658ECAC166D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8878B650252E63A062DA91E70674ED3 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE77E9B1259C122DA0653E6C1E8F250E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B2AC87CA8ABEB42C1F3D9C2227E06E8A /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		B0F6D42B9BBB99F92A235D62754F951F /* GooglePlacesSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				951DC7A9DA20ABA5B948CF7FADF69D36 /* GooglePlacesSearchController.swift */,
+				40230B89D1A2BF03CD5B5A3CF9CDC3E0 /* Resources */,
+				3BC46E685C4A10CD767E14A9709B0E52 /* Support Files */,
+			);
+			name = GooglePlacesSearchController;
+			path = GooglePlacesSearchController;
+			sourceTree = "<group>";
+		};
+		B2AC87CA8ABEB42C1F3D9C2227E06E8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				850B9517396245539726ECB498BECD31 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4058F395593351E9F7BE3E003833F9B /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				499BB0BDF77EE177D3B80D3D63D27DB4 /* Frameworks */,
+				2BC2153C43E6EF2D89BCCBAFD63C94F0 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		ED20D9D4BD4E5054A1AC9856BB555A62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6004AA72EF171BEEEC277805070D92DF /* Pods-Navino */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39F8D3BCB6E6BDA0F85E10BB4E0AAEC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F703BE679E544C5FB55876BE35BA74 /* GooglePlacesSearchController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572DE9D30295A7D7D37D91C558A780F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C01F026C94E673857A39E281A0F825 /* Pods-Navino-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83B3DF6AE5858E2DB13F815C2F761CCF /* Pods-Navino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0FE97E7DF417A194E526E3EC4B29B6 /* Build configuration list for PBXNativeTarget "Pods-Navino" */;
+			buildPhases = (
+				7BFE444273521959EAEA4E1997A0BBA8 /* Sources */,
+				7C462C284920D14ED5A114506C719431 /* Frameworks */,
+				572DE9D30295A7D7D37D91C558A780F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36362674F29928668C0D25482E1FB66 /* PBXTargetDependency */,
+			);
+			name = "Pods-Navino";
+			productName = "Pods-Navino";
+			productReference = F8BF455BBFF6B9BCBDAEFF42C0CC410D /* libPods-Navino.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89B940EBC4D4659E0D205DE92141D975 /* GooglePlacesSearchController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943961B0BF5415745492B51963680E7F /* Build configuration list for PBXNativeTarget "GooglePlacesSearchController" */;
+			buildPhases = (
+				8BAE17976875D9272AAACF34DBAB6D2F /* Sources */,
+				6A0647549985B052A1733DB97B3A3CC0 /* Frameworks */,
+				39F8D3BCB6E6BDA0F85E10BB4E0AAEC2 /* Headers */,
+				BFC54D1E7FB9F4D80C4A381F3D7C6B9E /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePlacesSearchController;
+			productName = GooglePlacesSearchController;
+			productReference = 985BB8AB2A698B2BE99A89372AA24E53 /* libGooglePlacesSearchController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3C867E87531088FDB51327B57407646A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89B940EBC4D4659E0D205DE92141D975 /* GooglePlacesSearchController */,
+				83B3DF6AE5858E2DB13F815C2F761CCF /* Pods-Navino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFC54D1E7FB9F4D80C4A381F3D7C6B9E /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/GooglePlacesSearchController/GooglePlacesSearchController.modulemap",
+				"${PODS_ROOT}/Headers/Public/GooglePlacesSearchController/GooglePlacesSearchController-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/GooglePlacesSearchController-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/GooglePlacesSearchController/GooglePlacesSearchController.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/GooglePlacesSearchController/GooglePlacesSearchController-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BFE444273521959EAEA4E1997A0BBA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A8E06F660C17733AABA83E721FE002 /* Pods-Navino-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAE17976875D9272AAACF34DBAB6D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FFA960FD82480AF80E2D292EE68F24 /* GooglePlacesSearchController-dummy.m in Sources */,
+				283552E5EB23B341E4F09E062E4660E7 /* GooglePlacesSearchController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36362674F29928668C0D25482E1FB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlacesSearchController;
+			target = 89B940EBC4D4659E0D205DE92141D975 /* GooglePlacesSearchController */;
+			targetProxy = 5BB434465D8CFD8F26F57D7C29EA36BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		288CC91DF6DCEFD6D3EA95A1EA6C0EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F638FCBB191D1BC9176EA66D112FEBDB /* Pods-Navino.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Navino/Pods-Navino.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CFFA9DE73B392BD2F39BBACE6801A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B93428CD4F9F8B84A2C268DFF498EA8 /* GooglePlacesSearchController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GooglePlacesSearchController/GooglePlacesSearchController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/GooglePlacesSearchController/GooglePlacesSearchController.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GooglePlacesSearchController;
+				PRODUCT_NAME = GooglePlacesSearchController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66F5433BE29D33587E43041952C57223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5BC00E58A77B0807565B2EB4F0E44C9 /* Pods-Navino.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Navino/Pods-Navino.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F54B3D383377867D3F38F854199F1278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B93428CD4F9F8B84A2C268DFF498EA8 /* GooglePlacesSearchController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GooglePlacesSearchController/GooglePlacesSearchController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/GooglePlacesSearchController/GooglePlacesSearchController.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GooglePlacesSearchController;
+				PRODUCT_NAME = GooglePlacesSearchController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943961B0BF5415745492B51963680E7F /* Build configuration list for PBXNativeTarget "GooglePlacesSearchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFFA9DE73B392BD2F39BBACE6801A36 /* Debug */,
+				F54B3D383377867D3F38F854199F1278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0FE97E7DF417A194E526E3EC4B29B6 /* Build configuration list for PBXNativeTarget "Pods-Navino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288CC91DF6DCEFD6D3EA95A1EA6C0EC0 /* Debug */,
+				66F5433BE29D33587E43041952C57223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
